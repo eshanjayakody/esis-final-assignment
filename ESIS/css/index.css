@@ -1,0 +1,122 @@
+/* Reset some default styles and set a modern font */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* Make links stand out and remove underlines */
+a {
+  text-decoration: none;
+  color: #3498db;
+}
+
+/* Modernize the header with a dark background and better spacing */
+.header {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #080808;
+  padding: 15px 0;
+  text-align: center;
+}
+
+/* Center the content within the header */
+.innerheader {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Improve the logo and signup button styles */
+.logo {
+  height: 50px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.signup {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* Modernize the main content area */
+.content {
+  min-height: 600px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Update the banner section for a more appealing look */
+.banner {
+  padding: 50px 0;
+  text-align: center;
+  color: #fff;
+  background: url(../intro-bg_1.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.innerbanner {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.bannercontent {
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.7);
+  max-width: 600px;
+  border-radius: 5px;
+}
+
+.button {
+  color: #fff;
+  background-color: #3498db;
+  padding: 12px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Modernize the thumbnail styles */
+.thumbnail {
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.caption {
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Update the footer with a dark background and better spacing */
+footer {
+  background-color: #333;
+  color: #fff;
+  font-size: 16px;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Modernize the banner image styles */
+.banner_image {
+  padding: 100px 0 50px;
+  text-align: center;
+  color: #fff;
+  background: url(../img/intro-bg_1.jpg) no-repeat center center;
+  background-size: cover;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+}

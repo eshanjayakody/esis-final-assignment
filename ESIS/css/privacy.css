@@ -1,0 +1,25 @@
+header {
+    text-align: center;
+}
+
+/* Styles for sections */
+.container section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.container section h1 {
+	font-size: 24px;
+    margin-top: 20px;
+}
+
+.container section p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.container section ul {
+    list-style: disc;
+    margin-left: 20px;
+}
